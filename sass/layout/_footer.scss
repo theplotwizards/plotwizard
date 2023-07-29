@@ -1,0 +1,87 @@
+.footer{
+    background-color: $color-black;
+    // background-image: 
+    //     url(images/villains.png);
+    //     background-size: cover;
+    //     background-position: left;
+    //     background-repeat: no-repeat;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+    color: $color-grey-light-1;
+    margin-top: -9rem;
+    
+
+    @include respond(tab-port) {
+        padding: 5rem 0;
+    }
+
+    &_logo-box{
+        text-align: center;
+        margin-top: 7rem;
+
+        @include respond(tab-port) {
+            margin-bottom: 6rem;
+        }
+
+    }
+
+    &_logo{
+        width: 30rem;
+        height: auto;
+    }
+
+    &_navigation{
+        border-top: 1px solid $color-grey;
+        padding-top: 2rem;
+        display: inline-block;
+
+        @include respond(tab-port) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    &_list{
+        list-style: none;
+    }
+
+    &_item{
+        display: inline-block;
+
+        &:not(:last-child){
+            margin-right: 1.5rem;
+        }
+    }
+
+    &_link{
+        &:link,
+        &:visited {
+            color: $color-grey-light-1;
+            background-color: $color-grey-light-3;
+            text-decoration: none;
+            text-decoration: uppercase;
+            display: inline-block;
+            transition: all .2sec;
+
+            &:hover,
+            &:active{
+                color: $color-primary;
+                box-shadow: 0 1rem 2rem rgba($color-black, .4);
+                transform: rotate(5deg) scale(1.3);
+            }
+        }
+    }
+
+    &_copyright{
+        border-top: 1px solid $color-grey;
+        padding-top: 2rem;
+        width: 80%;
+        float: right;
+
+        @include respond(tab-port) {
+            width: 100%;
+            float: none;
+        }
+        }
+
+}

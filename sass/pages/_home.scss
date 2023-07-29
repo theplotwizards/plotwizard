@@ -1,0 +1,65 @@
+.section-about{
+    background-color: $color-black;
+    padding: 25rem 0;
+    margin-top: -20rem;
+    
+
+    @include respond(tab-port){
+        padding: 20rem 0;
+    }
+}
+
+.section-features{
+    padding: 20rem 0;
+    background-color: $color-black;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-black, .6),
+        rgba($color-black, .6)), 
+        url(images/Front_Cover.jpg);
+        background-size: cover;
+        background-position: center 70%;
+        background-repeat: no-repeat;
+        transform: skewY(-7deg);
+        margin-top: -30rem;
+
+        & > *{
+            transform: skewY(7deg);
+        }
+
+        @include respond(tab-port){
+            padding: 10rem 0;
+            margin-top: -20rem;
+        }
+}
+
+.section-tours{
+    background-color: $color-black;
+    padding: 25rem 0 5rem 0;
+    margin-top: -10rem;
+
+    @include respond(tab-port) {
+        padding: 20rem 0 10rem 0;
+    }
+}
+
+.section-story {
+    padding: 15rem 0;
+    position: relative;
+    background-color: $color-black;
+    background-image: linear-gradient(
+      to bottom, /* Change from 'to right bottom' to 'to bottom' */
+      rgba($color-black, 1) 0%,
+      rgba($color-black, 0) 10%, /* Fully opaque at the center */
+      rgba($color-black, 0.1) 90%,
+      rgba($color-black, 1) 100%
+    ),
+    url(images/frontcoverproof.jpg);
+    background-size: cover;
+    background-position: top;
+  
+    @include respond(tab-port) {
+      padding: 10rem 0;
+    }
+  }
+  

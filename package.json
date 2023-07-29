@@ -1,0 +1,15 @@
+{
+  "name": "utnat",
+  "version": "1.0.0",
+  "description": "Landing page for utnat",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss style.css -w"
+  },
+  "author": "Jeremy Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "save-dev": "^0.0.1-security"
+  }
+}

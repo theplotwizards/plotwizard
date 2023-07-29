@@ -1,0 +1,55 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+Grey: #808080
+White: #ffffff
+
+
+font-family: 'Geologica', sans-serif;
+
+*/
+
+$color-primary: #9b76ee;
+$color-primary-light:#b89df3;
+$color-primary-dark: #7e4fe9;
+
+$color-green: #55c57a;
+$color-green-light:#7ed56f;
+$color-green-dark: #28b485;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-red-dark: #8b001d; 
+$color-red-light:#f10031;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+$color-grey-light-3: #333;
+
+$color-grey: #808080;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-yellow: #fff200;
+$color-orange: #d2232a;
+
+//font
+$default-font-size:1.6rem;
+
+
+//grid 
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+
+//shadow
+
+$default-shadowing: 0 1.5rem 4rem rgba($color-black, .5);
+$default-shadowing-white: 0 1.5rem 4rem rgba($color-grey, .5);
