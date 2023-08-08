@@ -264,20 +264,6 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
 
-.bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  opacity: .25;
-  overflow: hidden; }
-  .bg-video_content {
-    height: 100%;
-    width: 100%;
-    object-fit: cover; }
-
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -320,11 +306,11 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card_picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(images/faerie_garden_2.png); }
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(images/faerie_garden_2.jpg); }
     .card_picture--2 {
-      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(images/guide.png); }
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(images/guide.jpg); }
     .card_picture--3 {
-      background-image: linear-gradient(to right bottom, #f10031, #8b001d), url(images/hive.png);
+      background-image: linear-gradient(to right bottom, #f10031, #8b001d), url(images/hive.jpg);
       background-position: center 5%; }
   .card_heading {
     font-size: 2.8rem;
@@ -645,7 +631,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(184, 157, 243, 0.6), rgba(126, 79, 233, 0.6)), url(images/heroes.png);
+  background-image: linear-gradient(to right bottom, rgba(184, 157, 243, 0.6), rgba(126, 79, 233, 0.6)), url(images/heroes2.jpg);
   background-size: cover;
   background-position: center 56%;
   position: relative; }
@@ -656,7 +642,7 @@ body {
       height: 95vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(184, 157, 243, 0.5), rgba(126, 79, 233, 0.5)), url(images/heroes.png); } }
+      background-image: linear-gradient(to right bottom, rgba(184, 157, 243, 0.5), rgba(126, 79, 233, 0.5)), url(images/heroes2.jpg); } }
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
