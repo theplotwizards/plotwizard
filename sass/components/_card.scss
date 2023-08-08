@@ -72,15 +72,15 @@
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         
         &--1{
-            background-image:linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(images/faerie_garden_2.png);
+            background-image:linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(images/faerie_garden_2.jpg);
         }
 
         &--2{
-            background-image:linear-gradient(to right bottom, $color-green-light, $color-green-dark), url(images/guide.png);
+            background-image:linear-gradient(to right bottom, $color-green-light, $color-green-dark), url(images/guide.jpg);
         }
 
         &--3{
-            background-image:linear-gradient(to right bottom, $color-red-light, $color-red-dark), url(images/hive.png);
+            background-image:linear-gradient(to right bottom, $color-red-light, $color-red-dark), url(images/hive.jpg);
             background-position:center 5%;
         }
 
